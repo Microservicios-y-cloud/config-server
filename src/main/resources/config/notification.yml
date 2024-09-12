@@ -16,8 +16,8 @@ info:
   build:
     time: ${BUILD_TIME:2024-08-21T12:30:00Z}
 
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
-      database: notifications
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
+#      database: notifications

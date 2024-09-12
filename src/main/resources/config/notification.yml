@@ -5,7 +5,7 @@ server:
 # App metadata
 info:
   app:
-    name: Users and Auth Microservice
+    name: Notification Microservice
     description: '@project.description@'
     version: 1.0.0
   company:
@@ -20,4 +20,4 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
-      database: users
+      database: notifications

@@ -21,4 +21,4 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
-      database: pqrs
+      database: questions_answers_and_ratings

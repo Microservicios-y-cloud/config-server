@@ -1,11 +1,11 @@
 server:
   # To avoid colliding with other apps in port 8080
-  port: 8083
+  port: 8086
 
   # App metadata
 info:
   app:
-    name: Command of Services Microservice
+    name: Querying of Services Microservice
     description: '@project.description@'
     version: 1.0.0
   company:
@@ -15,3 +15,9 @@ info:
       phone: +1234567890
   build:
     time: ${BUILD_TIME:2024-08-21T12:30:00Z}
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
+      database: services

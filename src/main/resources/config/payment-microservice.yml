@@ -21,3 +21,4 @@ spring:
     mongodb:
       uri: mongodb+srv://kevinevelasco:kevinevelasco@msc-cluster.gh4kp.mongodb.net/?retryWrites=true&w=majority&appName=msc-cluster
       database: payments
+      auto-index-creation: true
